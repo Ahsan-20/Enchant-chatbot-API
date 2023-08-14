@@ -1,0 +1,16 @@
+openai
+chromadb==0.3.26
+faiss-cpu
+tiktoken
+langchain==0.0.221
+uvicorn
+fastapi
+python-dotenv
+aiofiles
+pydantic
+pillow
+unstructured
+tabulate
+pdf2image
+pytesseract
+elevenlabs
