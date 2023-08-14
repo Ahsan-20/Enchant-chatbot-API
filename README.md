@@ -37,7 +37,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
  ```bash
  pip install -r requirements.txt
   ```
-4.Create a .env file in the same directory as config.py and add your OpenAI API key:
+5. Create a .env file in the same directory as config.py and add your OpenAI API key:
  ```bash
 OPENAI_API_KEY=your_openai_api_key_here
   ```
