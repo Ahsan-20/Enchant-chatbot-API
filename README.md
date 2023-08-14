@@ -1,4 +1,4 @@
-# Chatbot API using FastAPI
+# Chatbot API Powered by Langchain ,ElevenLabs ,OpenAI
 
 This project aims to create an API that allows users to interact with a chatbot capable of answering various queries based on user-provided data. The chatbot accepts both text and voice inputs from users and responds with text and synthesized voice output.
 
@@ -28,16 +28,11 @@ git clone https://github.com/Ahsan-20/Enchant-chatbot-API.git
 cd your-chatbot-api
 ```
 
-2. Create a virtual environment (recommended):
- ```bash
- python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-4. Install the required dependencies:
+2. Install the required dependencies:
  ```bash
  pip install -r requirements.txt
   ```
-5. Create a .env file in the same directory as config.py and add your OpenAI API key:
+3. Create a .env file in the same directory and add your OpenAI API key:
  ```bash
 OPENAI_API_KEY=your_openai_api_key_here
   ```
