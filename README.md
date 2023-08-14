@@ -23,24 +23,24 @@ This project aims to create an API that allows users to interact with a chatbot 
 
 1. Clone the repository:
 
-  ```bash
-    git clone https://github.com/Ahsan-20/Enchant-chatbot-API.git
-    cd your-chatbot-api
+```bash
+git clone https://github.com/Ahsan-20/Enchant-chatbot-API.git
+cd your-chatbot-api
 ```
 
 2. Create a virtual environment (recommended):
  ```bash
-      python -m venv venv
-      source venv/bin/activate  # On Windows: venv\Scripts\activate
+ python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 4. Install the required dependencies:
-    ```bash
-      pip install -r requirements.txt
-      ```
+ ```bash
+ pip install -r requirements.txt
+  ```
 4.Create a .env file in the same directory as config.py and add your OpenAI API key:
-
-    OPENAI_API_KEY=your_openai_api_key_here
-
+ ```bash
+OPENAI_API_KEY=your_openai_api_key_here
+  ```
 ## Usage
 Start the FastAPI server:
    ```bash
